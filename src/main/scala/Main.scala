@@ -1,9 +1,9 @@
-import Entity.Player
+import Menus.MainMenu
 
-@main def main(): Unit =
-  val myPlayer = Player("SuperSoniq")
-  myPlayer.printStats()
-  myPlayer.x += 10
-  myPlayer.y += 24
-  println("walk a little bit")
-  myPlayer.printStats()
+object Main extends App {
+  try
+    val game = MainMenu()
+  catch
+    case e: Exception =>
+      println(e.getMessage)
+}
