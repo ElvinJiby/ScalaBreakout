@@ -1,5 +1,7 @@
 package Game
 
-class GameScreen {
+import javax.swing.JPanel
+
+class GameScreen extends JPanel {
 
 }

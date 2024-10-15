@@ -1,5 +1,7 @@
 package Game
 
-class GameWindow {
+import javax.swing.JFrame
+
+class GameWindow extends JFrame {
 
 }
